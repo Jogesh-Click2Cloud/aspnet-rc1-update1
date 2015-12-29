@@ -24,6 +24,20 @@ namespace Test_App
 
             app.Run(async (context) =>
             {
+                await context.Response.WriteAsync("  < h1 > Our Click2Cloud App</ h1 >");
+                await context.Response.WriteAsync("  < h2 > Awesome App try it </ h2 >");
+                await context.Response.WriteAsync("  < h3 > age.  It will usually be the largest text that stands out.  There are other header tags in HTML too, like an h2, h3, h4, etc.  Each can have a lesser degree of importance on the page, but it really depends on how your HTML/CSS guy did the layout.  Sometimes, they make your logo the h1 – because it’s in the “header”, but it would be best to make the </ h3 >");
+                await context.Response.WriteAsync("  < h4 > age.  It will usually be the largest text that stands out.  There are other header tags in HTML too, like an h2, h3, h4, etc.  Each can have a lesser degree of importance on the page, but it really depends on how your HTML/CSS guy did the layout.  Sometimes, they make your logo the h1 – because it’s in the “header”, but it would be best to make the  </ h4 >");
+                await context.Response.WriteAsync("  < h5 > age.  It will usually be the largest text that stands out.  There are other header tags in HTML too, like an h2, h3, h4, etc.  Each can have a lesser degree of importance on the page, but it really depends on how your HTML/CSS guy did the layout.  Sometimes, they make your logo the h1 – because it’s in the “header”, but it would be best to make the  </ h5 >");
+                await context.Response.WriteAsync("Hello World!");
+                await context.Response.WriteAsync("Hello World!");
+                await context.Response.WriteAsync("Hello World!");
+                await context.Response.WriteAsync("Hello World!");
+                await context.Response.WriteAsync("Hello World!");
+                await context.Response.WriteAsync("Hello World!");
+                await context.Response.WriteAsync("Hello World!");
+                await context.Response.WriteAsync("Hello World!");
+                await context.Response.WriteAsync("Hello World!");
                 await context.Response.WriteAsync("Hello World!");
             });
         }
